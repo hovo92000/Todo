@@ -166,4 +166,137 @@ body {
 .todoListChecked .buttons .deleteButton {
   margin-right: 7px;
 }
+
+@media screen and (max-width: 360px) {
+  .header {
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: relative;
+    background-image: url(./todoImg2.jpg);
+    background-size: cover;
+  }
+  .header .divForButtonAndInpud {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .divForButtonAndInpud .myInput {
+    width: 150px;
+    height: 30px;
+    padding: 4px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .header .divForButtonAndInpud .addButton {
+    width: 40px;
+    height: 30px;
+    background-color: green;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .header .data {
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .header .backButton {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+  }
+  .todoList {
+    width: 320px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px;
+    border: 1px solid black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 20px;
+  }
+  .todoList .todoText {
+    margin-left: 10px;
+  }
+  .todoList .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .todoList .buttons .buttonCompleted {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+  }
+  .todoList .buttons .deleteButton {
+    margin-right: 7px;
+  }
+  .todoListChecked {
+    width: 500px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px;
+    border: 1px solid black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #767676;
+    font-size: 24px;
+  }
+  .todoListChecked .todoText {
+    margin-left: 10px;
+    text-decoration: line-through;
+  }
+  .todoListChecked .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .todoListChecked .buttons .buttonCompleted {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+  }
+  .todoListChecked .buttons .deleteButton {
+    margin-right: 7px;
+  }
+}
 /*# sourceMappingURL=todos.css.map */
