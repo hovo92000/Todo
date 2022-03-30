@@ -165,7 +165,9 @@ body {
 
 .todoListChecked .buttons .deleteButton {
   margin-right: 7px;
+
 }
+
 
 @media screen and (max-width: 500px) {
   .header {
